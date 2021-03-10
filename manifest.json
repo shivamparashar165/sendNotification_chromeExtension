@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "GeeksforGeeks Tutorial",
+    "description": "This extension contains a options page, and having the functionality to send Rich Notifiations",
+    "version": "1.0",
+    "options_page": "options.html",
+    "permissions" :[
+        "notifications"
+    ],
+    "browser_action": {
+    "icons": { "16": "icon16.png",
+            "48": "icon48.png",
+           "128": "icon128.png" },
+    "default_popup": "index.html"
+    }
+    }
+    
